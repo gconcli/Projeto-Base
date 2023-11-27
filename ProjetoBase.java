@@ -16,5 +16,7 @@ public class ProjetoBase {
         System.out.println("3 - Saque da conta ");
         System.out.println("0 - Sair");
         System.out.println("____________________________________________");
+        System.out.println("Digite uma das opções acima: ");
+        int Opcao = scanner.nextInt();
     }
 }
