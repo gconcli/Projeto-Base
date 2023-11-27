@@ -43,7 +43,10 @@ public class ProjetoBase {
                 else {
                     saldo = saldo - saque;
                     System.out.println("Saque realizado com sucesso!");
+<<<<<<< HEAD
                     System.out.println("Seu saldo atual é de: R$" + saldo);
+=======
+>>>>>>> 1a6e39f3784a720d73a9e73d83f36a918d3f7b8a
                 }
             
             case 0:
