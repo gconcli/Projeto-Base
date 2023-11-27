@@ -31,7 +31,24 @@ public class ProjetoBase {
                 saldo = saldo + deposito;
                 System.out.println("Adicionado com sucesso seu depósito no saldo!")
                 break;
-        
+
+            case 3:
+                System.out.println("Seu saldo: R$" + saldo);
+                System.out.println("Quanto deseja sacar? ");
+                int saque = scanner.nextInt();
+                if (saque > saldo) {
+                    System.out.println("Você não pode sacar um saldo maior que o seu!");
+                    break;
+                }
+                else {
+                    saldo = saldo - saque;
+                    System.out.println("Saque realizado com sucesso!");
+                }
+            
+            case 0:
+                System.out.println("Obrigado por escolher nosso banco. Até mais!");
+                break;
+
             default:
                 break;
         }
