@@ -44,7 +44,11 @@ public class ProjetoBase {
                     saldo = saldo - saque;
                     System.out.println("Saque realizado com sucesso!");
                 }
-        
+            
+            case 0:
+                System.out.println("Obrigado por escolher nosso banco. Até mais!");
+                break;
+
             default:
                 break;
         }
