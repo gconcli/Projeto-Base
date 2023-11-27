@@ -4,6 +4,7 @@ public class ProjetoBase {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int saldo = 0;
 
         System.out.println("Digite seu nome: ");
         String nome = scanner.nextLine();
@@ -18,5 +19,14 @@ public class ProjetoBase {
         System.out.println("____________________________________________");
         System.out.println("Digite uma das opções acima: ");
         int Opcao = scanner.nextInt();
+
+        switch (Opcao) {
+            case 1:
+                System.out.println("Seu saldo: " + saldo);
+                break;
+        
+            default:
+                break;
+        }
     }
 }
