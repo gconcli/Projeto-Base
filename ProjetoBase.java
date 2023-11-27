@@ -11,5 +11,10 @@ public class ProjetoBase {
         System.out.println("____________________________________________");
         System.out.println("Bem vindo " + nome + " ao HomeBank SENAC!");
         System.out.println("____________________________________________");
+        System.out.println("1 - Ver extrato da conta");
+        System.out.println("2 - Depósito em conta");
+        System.out.println("3 - Saque da conta ");
+        System.out.println("0 - Sair");
+        System.out.println("____________________________________________");
     }
 }
