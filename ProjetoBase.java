@@ -22,7 +22,7 @@ public class ProjetoBase {
 
         switch (Opcao) {
             case 1:
-                System.out.println("Seu saldo: " + saldo);
+                System.out.println("Seu saldo: R$" + saldo);
                 break;
         
             default:
