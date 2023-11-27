@@ -24,6 +24,13 @@ public class ProjetoBase {
             case 1:
                 System.out.println("Seu saldo: R$" + saldo);
                 break;
+
+            case 2:
+                System.out.println("Quanto você deseja depositar? ");
+                int deposito = scanner.nextInt();
+                saldo = saldo + deposito;
+                System.out.println("Adicionado com sucesso seu depósito no saldo!")
+                break;
         
             default:
                 break;
